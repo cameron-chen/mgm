@@ -1,0 +1,6 @@
+output/
+script/
+data/*
+.vscode/
+*.pyc
+*.out
