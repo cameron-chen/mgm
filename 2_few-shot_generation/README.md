@@ -17,7 +17,9 @@ This experiment requires:
 - test set: minihorse_test
 - training set for the mixer: zebra
 
-Please download minihorse_train and minihorse_test from the link: https://drive.google.com/drive/folders/10bW9s9BVvGCLiNdSD5nBb8DJdlHcpTPO?usp=sharing. We need to process them by following command: 
+Please download minihorse_train and minihorse_test from the link: https://drive.google.com/drive/folders/10bW9s9BVvGCLiNdSD5nBb8DJdlHcpTPO?usp=sharing. 
+
+We need to process them by following command: 
 
 ```
 python dataset_tool.py \
@@ -50,8 +52,8 @@ To replicate experiments from the paper, you will need the checkpoint of the Sty
 Then train MGM (our method) using this command:
 
 Key argument: 
-    - config: `config-ada-sv-flat` to train a FSGAN, while `config-fd` to train a FreezeD
-    - hier: input this argument to train a MGM while not input to train a baseline
+- config: `config-ada-sv-flat` to train a FSGAN, while `config-fd` to train a FreezeD
+- hier: input this argument to train a MGM while not input to train a baseline
 
 ```
 python run_training.py \
