@@ -19,7 +19,7 @@ You can try two types of data:
 ## Training MGM
 The procedure of training a MGM model: 1. Pretrain a mixer, 2. Train the MGM. 
 
-The implementation provides a flag to specify the trianing object, such as an agent (`agent`), a mixer (`mixer`), a MGM model (`hierP`). For example, to train an agent: 
+The implementation provides a flag to specify the trianing object, such as an agent (`agent`), a mixer (`mixer`), a MGM model (`hier`). For example, to train an agent: 
 
 ```
 # Train agent
