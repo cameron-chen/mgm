@@ -1,0 +1,9 @@
+data/**
+output/**
+script/**
+**/__pycache__/
+.vscode
+.empty
+eva_model.ipynb
+*.db
+zip_exp.ipynb
